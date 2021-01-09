@@ -1,5 +1,5 @@
 ---
-title: "#1 button disguised as a link"
+title: "#1 кнопка, замаскированная под ссылку"
 date: 2019-10-17T01:00:00
 permalink: /{{ title | slug }}/index.html
 layout: layouts/entry.njk
