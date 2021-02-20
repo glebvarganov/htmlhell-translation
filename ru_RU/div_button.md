@@ -1,5 +1,5 @@
 ---
-title: "#2 div с ролью кнопки"
+title: "#2 div в роли кнопки"
 date: 2019-10-17T02:00:00
 author: schepp
 permalink: /{{ title | slug }}/index.html

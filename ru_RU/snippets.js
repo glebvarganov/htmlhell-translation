@@ -1,5 +1,6 @@
 module.exports = {
     sr_only: "Unfortunately, there’s no native way of hiding content only visually.<br>The `.sr-only` class makes sure that content is visually hidden but still accessible to screen reader users.",
+    sr_only_ru: "К сожалению, нет стандартного способа скрыть контент только визуально.<br>Класс `.sr-only` скроет контент визуально, но в то же время по-прежнему будет доступен для скрин ридеров.",
     native_semantics: "Do not change native semantics, unless you really have to.",
     a_click: "A click event on an `a` triggers on click and if the user presses the <kbd>Enter</kbd> key.",
     button_click: "A click event on a `button` triggers on click and if the user presses the <kbd>Enter</kbd> or <kbd>Space</kbd> key.",
@@ -27,8 +28,10 @@ module.exports = {
     fa_times: "Font Awesome adds Unicode content via the `::before` pseudo element. Assistive technology may announce the Unicode equivalent, which in this specific example would be “times” since [fa-times is not a cross but a multiplication sign](https://fontawesome.com/icons/times). (Please note: Talkback and VoiceOver didn’t announce anything in this example.)",
     i_elem: 'The `i` element represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text.<sup><a href="#resources"><span class="u-hidden">Footnote</span>2</a></sup> If you just want italic text, use `font-style: italic;` in CSS.',
     linkvsbutton: "If you’re not sure when to use `<a>` or `<button>`, watch [The Links vs. Buttons Showdown](https://www.youtube.com/watch?v=8XjwDq9zG4I) by [Marcy Sutton](https://twitter.com/marcysutton).",
+    linkvsbutton_ru: "Если вы не уверены, нужно использовать `<a>` или `<button>`, посмотрите [Противостояние: ссылки против кнопок](https://www.youtube.com/watch?v=8XjwDq9zG4I) от [Marcy Sutton](https://twitter.com/marcysutton).",
     csscontent: "Screen readers may announce CSS generated content.",
     noalt: "There’s no text alternative for the image. Screen readers may announce the filename instead.",
+    noalt_ru: "Отстуствует альтернативное текстовое описание изображения. Вместо этого программы чтения с экрана могут использовать имя файла.",
     timessign: "✕ doesn’t represent *close* or *crossed out*, it’s the multiplication sign, like in 2 ✕ (times) 2. Don’t use it for close buttons.",
     svg: "The SVG has no text alternative. Read [Creating Accessible SVGs](https://www.deque.com/blog/creating-accessible-svgs/) by [Carie Fisher](https://cariefisher.com/) to learn how to make SVGs accessible."
 }
